@@ -29,7 +29,6 @@ int main()
 	cout << half(b) << endl;
 	cout << half(c) << endl;
 
-
-
+	system("pause");
 	return 0;
 }
