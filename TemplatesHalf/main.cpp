@@ -9,7 +9,13 @@ using namespace std;
 template<typename type>
 type half(type num)
 {
+	num = num / 2;
+	return num;
+}
 
+int half(int num)
+{
+	num = round(static_cast<double>(num) / 2);
 	return num;
 }
 
@@ -21,7 +27,7 @@ int main()
 
 	cout << half(a) << endl;
 	cout << half(b) << endl;
-	cout << half<int>(c) << endl;
+	cout << half(c) << endl;
 
 
 
